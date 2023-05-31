@@ -11,5 +11,5 @@ import retrofit2.http.Query;
 public  interface PostServe {
 
     //Crear el metodo para obtener los datos
-    @GET("posts") Call<List<Post>> find(@Query("q") String q);
+    @GET("post") Call<List<Post>> find(@Query("q") String q);
 }
